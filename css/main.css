@@ -18,8 +18,14 @@ body{
     backface-visibility: 50%;
 }
 
+.topNav img{
+float: left;
+}
+
 .topNav a{
-    float: left;
+    position: absolute;
+    top: 8px;
+    left: 16px;
     color: #8b8b8b;
     text-align: center;
     padding: 14px 16px;
@@ -27,6 +33,9 @@ body{
 }
 
 .topNavCenter{
+    position: absolute;
+    top: 8px;
+    left: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,6 +52,16 @@ color: #ee1c1c;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+}
+
+.topNavImg{
+    position: relative;
+    text-align: center;
+}
+
+.topNavImg img{
+    width: 100%;
+    filter: blur(1px);
 }
 
 @media (max-width: 800px){
