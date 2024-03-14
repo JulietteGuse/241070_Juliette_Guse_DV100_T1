@@ -7,18 +7,19 @@ body{
 }
 
 .topNav{
-    width: 100%;
+    width: 80%;
     height: 50px;
+    background-color: rgb(255, 245, 232);
+    border-radius: 10px;
+    opacity: 80%;
+    margin-left: 8em;
 }
 
 .topNav a{
-    float: left;
     color: #8b8b8b;
     text-align: center;
     padding: 14px 16px;
     font-size: 40%;
-    border-color: blanchedalmond;
-    border-radius: 25%;
 }
 
 .topNav img{
@@ -55,7 +56,6 @@ color: #ee1c1c;
 
 .flexContainer{
     display: flex;
-    flex-direction: row;
     font-size: 16px;
     text-align: justify;
     background-color: #34075f;
@@ -63,16 +63,16 @@ color: #ee1c1c;
 
 .flexContainer img{
     padding: 5%;
-    width: 400px;
-    height: 400px;
+    width: 700px;
+    height: 700px;
     float: left;
 }
 
 .flex2{
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: flex-end;
     text-align: left;
-    display: contents;
+    align-items: center;
 }
 
 .flex2Blue{
@@ -91,8 +91,8 @@ h1{
 }
 
 .flex2Button{
-    border: #ee1c1c;
-    border-radius: 2px;
+    background-color: rgb(207, 25, 22);
+    border-radius: 10px;
 }
 
 @media (max-width: 800px){
