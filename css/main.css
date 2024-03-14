@@ -9,7 +9,6 @@ body{
 .topNav{
     width: 100%;
     height: 50px;
-    background-color: rgb(247, 214, 171);
 }
 
 .topNav a{
@@ -18,6 +17,8 @@ body{
     text-align: center;
     padding: 14px 16px;
     font-size: 40%;
+    border-color: blanchedalmond;
+    border-radius: 25%;
 }
 
 .topNav img{
@@ -30,9 +31,12 @@ body{
     background-position: top;
     background-size: cover;
     position: relative;
+    width: 100%;
+    height: 500px;
 }
 
 .topNavCenter{
+    justify-content: center;
     position: absolute;
     top: 1.5%;
     left: 30%;
@@ -47,6 +51,48 @@ color: #ee1c1c;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-align: justify;
+    background-color: #34075f;
+}
+
+.flexContainer img{
+    padding: 5%;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.flex2{
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    display: contents;
+}
+
+.flex2Blue{
+    color: rgb(0, 225, 255);
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+h1{
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.flex2 p{
+    color: aliceblue;
+}
+
+.flex2Button{
+    border: #ee1c1c;
+    border-radius: 2px;
 }
 
 @media (max-width: 800px){
