@@ -7,19 +7,21 @@ body{
 }
 
 .topNav{
-    width: 80%;
-    height: 50px;
+    width: 90%;
+    height: 70px;
     background-color: rgb(255, 245, 232);
-    border-radius: 10px;
+    border-radius: 20px;
     opacity: 80%;
-    margin-left: 8em;
+    margin-left: 4em;
 }
 
 .topNav a{
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
     color: #8b8b8b;
-    text-align: center;
-    padding: 14px 16px;
-    font-size: 40%;
+    padding-top: 2em;
+    font-size: 80%;
 }
 
 .NavImg{
@@ -52,9 +54,11 @@ color: #ee1c1c;
 
 .flexContainer{
     display: flex;
-    font-size: 16px;
-    text-align: justify;
+    font-size: 20px;
+    align-items: center;
     background-color: #34075f;
+    padding-right: 6em;
+    
 }
 
 .flexContainer img{
@@ -65,6 +69,7 @@ color: #ee1c1c;
 }
 
 .flex2{
+    padding-left: 2em;
     flex-wrap: wrap;
     justify-content: flex-end;
     text-align: left;
@@ -82,11 +87,17 @@ h1{
     text-transform: uppercase;
 }
 
-.flex2 p{
+.flex2White{
     color: aliceblue;
 }
 
 .flex2Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 160px;
+    height: 60px;
     background-color: rgb(207, 25, 22);
     border-radius: 5px;
 }
