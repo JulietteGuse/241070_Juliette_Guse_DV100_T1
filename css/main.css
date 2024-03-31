@@ -25,6 +25,11 @@ body{
     text-decoration: none;
 }
 
+.search{
+    margin-left: 55em;
+    margin-bottom: 20em;
+}
+
 .NavImg{
     background-image: url(../assets/images/homePageHeader.png);
     background-repeat: no-repeat;
@@ -56,6 +61,30 @@ color: #ee1c1c;
     height: auto;
     padding-left: 1em;
     padding-top: 1em;
+}
+
+.NavLeftBottomText{
+    padding-top: 30em;
+    position: relative;
+    bottom: 8px;
+    left: 16px;
+}
+
+@font-face {
+    font-family: 'Porter Sans Block';
+    src: url(../assets/Fonts/porter_sans_block/porter-sans-inline-block-webfont.woff) format("woff") ;
+}
+
+.bigRedText{
+    font-family: 'Porter Sans Block';
+    font-size: 30px;
+    color: rgb(215, 42, 42); 
+}
+
+.bigPurpleText{
+    color: #34075f;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .flexContainer{
@@ -290,4 +319,164 @@ hr{
     color: #8b8b8b;
     float: right;
     padding-left: 2em;
+}
+
+.ContactNavImg{
+    background-image: url(../assets/images/headerbackBack.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'Porter Sans Block';
+    src: url(../assets/Fonts/porter_sans_block/porter-sans-inline-block-webfont.woff) format("woff") ;
+} 
+
+.NavCenterText{
+    text-align: center;
+    padding-top: 3em;
+}
+
+.bigWhiteText{
+    font-family: 'Porter Sans Block';
+    font-size: 30px;
+    color: rgb(255, 255, 255); 
+}
+
+.flexContainer5{
+    margin-top: 8em;
+    float: left;
+    width: 45%;
+    padding: 2em;
+}
+
+.cBlue{
+    color: rgb(0, 220, 220);
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.cPurple{
+    color: #34075f;
+    text-transform: uppercase;
+}
+
+.cGrey{
+    color: #5A5A5A;
+}
+
+.flex5{
+    float: right;
+    padding: 2em;
+    width: 55%;
+}
+
+.flex5 img{
+    width: 600px;
+    height: auto;
+}
+
+.flex6leftTop{
+    margin-top: 45em;
+    width: 50%;
+    padding-left: 4em;
+    padding-bottom: 4em;
+}
+
+.flex6Left{
+    width: 50%;
+    padding-left: 4em;
+    padding-bottom: 4em;
+}
+
+.flex6Left iframe{
+    width: 70%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.flex6Right{
+    float: right;
+    width: 50%;
+    padding-right: 4em;
+    
+}
+
+.h3White{
+    color: #ffffff;
+}
+
+#contact{
+    background-image: url(../assets/images/formBack.png);
+    background-size: cover;
+    background-position: right;
+    padding: 2em 4em;
+    width: 100%;
+    margin: 50px 0;
+    border-radius: 14px;
+}
+
+#contact h1{
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#contact input, #contact textarea, #contact button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+fieldset{
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+#contact input, #contact textarea{
+    width: 100%;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#contact textarea{
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button{
+    cursor: pointer;
+    width: 150px;
+    border: none;
+    background-color: rgb(237, 0, 0);
+    color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#contact input:hover, #contact textarea:hover{
+    border: 2px solid #fe0606;
+}
+
+#contact input:focus, #contact textarea:focus{
+    background-color: #b5ecff;
+}
+
+#contact button:hover{
+    background-color: #010833;
 }
