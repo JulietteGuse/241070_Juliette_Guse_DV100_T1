@@ -16,28 +16,40 @@ body{
 }
 
 .topNav a{
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     color: #8b8b8b;
     font-size: 80%;
     padding: 2em;
     text-decoration: none;
 }
 
-.search{
+.NavAlign{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    margin-right: 0;
-    margin-left: 53em;
+    width: 100%;
+    /* display: flex; 
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   flex: 30%; */
 }
 
-.search form{
+.search{
+    /* display: block; */
+    /* align-items: center; */
+    /* margin-right: 0;
+    margin-left: 80%;
+    padding: 1em; */
+    font-size: 16px;
+}
+
+/* .search form{
     display: flex;
     margin: 0;
-}
+} */
 
-.search input{
+input .search{
     padding: 10px;
     border: 1px solid #8b8b8b;
     outline: none;
@@ -59,14 +71,19 @@ body{
     height: 800px;
     margin: 0;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .topNavCenter{
-    padding-top: 1em;
+   flex-direction: row;
+    /* padding-top: 1em;
     padding-left: 8em;
     top: 1%;
     left: 30%;
-    margin-left: 16em;
+    margin-left: 16em; */
 }
 
 .topNavCenter a.active{
@@ -75,19 +92,16 @@ color: #ee1c1c;
 
 .topNav img{
     float: left;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+    /* margin-left: auto;
+    margin-right: auto; */
     height: auto;
-    padding-left: 1em;
-    padding-top: 1em;
+    padding: 1em
 }
 
 .NavLeftBottomText{
-    padding-top: 30em;
+    padding-top: 28em;
     position: relative;
     bottom: 8px;
-    left: 16px;
 }
 
 @font-face {
@@ -97,11 +111,12 @@ color: #ee1c1c;
 
 .bigRedText{
     font-family: 'Porter Sans Block';
-    font-size: 30px;
+    font-size: 35px;
     color: rgb(215, 42, 42); 
 }
 
 .bigPurpleText{
+    font-size: 22px;
     color: #34075f;
     font-weight: bold;
     text-transform: uppercase;
@@ -112,14 +127,14 @@ color: #ee1c1c;
     font-size: 20px;
     align-items: center;
     background-color: #34075f;
-    padding-right: 6em;
-    
+    padding-right: 3em;
+    padding-left: 1.5em;
 }
 
 .flexContainer img{
     padding: 5%;
     width: 700px;
-    height: 700px;
+    height: auto;
     float: left;
 }
 
@@ -137,7 +152,7 @@ color: #ee1c1c;
 .centerLeft img{
     margin-left: 2em;
     width: 40px;
-    height: 50px;
+    height: auto;
 }
 
 .centerRight{
@@ -149,7 +164,7 @@ color: #ee1c1c;
 .centerRight img{
     margin-right: 2em;
     width: 40px;
-    height: 50px;
+    height: auto;
 }
 
 .flex2{
@@ -158,6 +173,10 @@ color: #ee1c1c;
     justify-content: flex-end;
     text-align: left;
     align-items: center;
+}
+
+.flex2 a{
+    text-decoration: none;
 }
 
 .flex2Blue{
@@ -195,7 +214,8 @@ color: #ee1c1c;
     font-size: 20px;
     align-items: center;
     background-color: #ffffff;
-    padding-right: 6em;
+    padding-right: 3em;
+    padding-left: 1.5em;
 }
 
 .flex3{
@@ -262,7 +282,7 @@ color: #ee1c1c;
 
 .flexItem4 img{
     width: 225px;
-    height: 250px;
+    height: auto;
 }
 
 .h2White{
@@ -283,6 +303,10 @@ color: #ee1c1c;
     text-align: center;
     padding-left: 23.5em;
     margin-top: 2em;
+}
+
+.flexItem5 a{
+    text-decoration: none;
 }
 
 .flexContainer4{
@@ -371,25 +395,31 @@ hr{
 }
 
 .flexContainer5{
-    margin-top: 8em;
+    margin-top: 5em;
     float: left;
     width: 45%;
-    padding: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    padding-left: 4em;
 }
 
 .cBlue{
     color: rgb(0, 220, 220);
     text-transform: uppercase;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .cPurple{
     color: #34075f;
     text-transform: uppercase;
+    font-weight: 1000;
 }
 
 .cGrey{
-    color: #5A5A5A;
+    color: #8e8e8e;
+    line-height: 1.4;
 }
 
 .flex5{
@@ -535,7 +565,7 @@ fieldset{
 
 .filterBarLeft img{
     width: 50px;
-    height: 40px;
+    height: auto;
 }
 
 .filterBarRight{
@@ -606,7 +636,7 @@ fieldset{
 .imgLeft{
     float: left;
     width: 30%;
-    padding-left: 7em;
+    padding-left: 4em;
     padding-top: 3em;
     padding-bottom: 3em;
     padding-right: 7em;
@@ -616,6 +646,7 @@ fieldset{
     float: right;
     width: 50%;
     margin: 2em;
+    padding-right: 3em;
 }
 
 .h1Black{
@@ -663,7 +694,7 @@ fieldset{
 
 .flexText img{
     width: 130px;
-    height: 35px;
+    height: auto;
 }
 
 .lightGreyVerticalLine{
@@ -714,7 +745,7 @@ hr{
 .imgLeft2{
     float: left;
     width: 30%;
-    padding-left: 7em;
+    padding-left: 4em;
     padding-top: 3em;
     padding-bottom: 3em;
     padding-right: 7em;
@@ -724,6 +755,7 @@ hr{
     float: right;
     width: 50%;
     margin: 2em;
+    padding-right: 3em;
 }
 
 .h1White2{
@@ -751,7 +783,7 @@ hr{
 
 .flextext2 img{
     width: 130px;
-    height: 35px;
+    height: auto;
 }
 
 .darkGreyVerticalLine{
@@ -802,13 +834,14 @@ hr{
 
 .flextext3 img{
     width: 130px;
-    height: 35px;
+    height: auto;
 }
 
 .flextext3{
     float: right;
     width: 50%;
     margin: 2em;
+    padding-right: 3em;
 }
 
 .rating3{
@@ -831,13 +864,14 @@ hr{
 
 .flextext4 img{
     width: 130px;
-    height: 35px;
+    height: auto;
 }
 
 .flextext4{
     float: right;
     width: 50%;
     margin: 2em;
+    padding-right: 3em;
 }
 
 .price4{
@@ -864,13 +898,14 @@ hr{
 
 .flextext5 img{
     width: 130px;
-    height: 35px;
+    height: auto;
 }
 
 .flextext5{
     float: right;
     width: 50%;
     margin: 2em;
+    padding-right: 3em;
 }
 
 .rating5{
@@ -892,13 +927,14 @@ hr{
 
 .flextext6 img{
     width: 130px;
-    height: 35px;
+    height: auto;
 }
 
 .flextext6{
     float: right;
     width: 50%;
     margin: 2em;
+    padding-right: 3em;
 }
 
 .price6{
@@ -915,4 +951,57 @@ hr{
 .button6{
     display: flex;
     flex-direction: row;
+}
+
+.bookNow button{
+    cursor: pointer;
+}
+
+.Cart{
+    grid-template-rows: 70px 1fr 70px;
+}
+
+.btn button{
+    padding: auto;
+    background-color: #34075f;
+    color: #ffffff;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.close button{
+    background-color: #a9eeff;
+}
+
+.flight img{
+    width: 100%;
+}
+
+.flight{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.amount span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #34075f;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.amount span:nth-child(2){
+    background-color: transparent;
+    color: #34075f;
+}
+
+.cartList{
+    overflow: auto;
 }

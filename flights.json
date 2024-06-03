@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "The Classic Mars Experience",
+        "price": "R 25,000.00",
+        "image": "../assets/images/flighhtMars.png"
+    }
+    {
+        "id": 2,
+        "name": "Neptune's Cosmic Dive",
+        "price": "R 45,000.00",
+        "image": "../assets/images/flightNeptune.png"
+    }
+    {
+        "id": 3,
+        "name": "The Giant's Journey",
+        "price": "R 65,000.00",
+        "image": "../assets/images/flightJupiter.png"
+    }
+    {
+        "id": 4,
+        "name": "Ring Around a Saturn",
+        "price": "R 40,000.00",
+        "image": "../assets/images/flightSaturn.png"
+    }
+    {
+        "id": 5,
+        "name": "Uranus Uncharted",
+        "price": "R 50,000.00",
+        "image": "../assets/images/flightUranus.png"
+    }
+    {
+        "id": 6,
+        "name": "Moonlight Meander",
+        "price": "R 15,000.00",
+        "image": "../assets/images/flightMoon.png"
+    }
+]
